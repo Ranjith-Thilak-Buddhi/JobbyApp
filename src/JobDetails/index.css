@@ -1,0 +1,158 @@
+.job-item-details-page {
+  background-color: #000000;
+  min-height: 90vh;
+  width: 100vw;
+  height: 100%;
+  padding: 25px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.job-item-details-container {
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.job-item-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.job-item-company-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-item-name-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.job-item-company-logo {
+  height: 65px;
+}
+
+.job-item-name {
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.job-item-rating-icon {
+  color: #fbbf24;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.job-item-rating {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.job-item-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-item-middle-section-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-item-middle-section-icon {
+  height: 22px;
+  width: 22px;
+  margin-right: 6px;
+}
+
+.job-item-location-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-item-location {
+  font-size: 15px;
+}
+
+.job-item-type {
+  font-size: 15px;
+}
+
+.job-item-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.job-item-package {
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.job-item-description-heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.job-item-description-para {
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.job-item-skills-heading {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.job-item-skills-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.skill-item-container {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 110px;
+  margin-top: 60px;
+}
+
+.skill-item-img {
+  height: 45px;
+  margin-right: 15px;
+}
+
+.life-at-company-heading {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.life-at-company-container {
+  display: flex;
+}
+
+.life-at-company-description {
+  margin-top: 0px;
+  line-height: 30px;
+  width: 65%;
+  font-size: 18px;
+}
+
+.life-at-company-img {
+  margin-left: auto;
+}
+
+.similar-jobs-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
