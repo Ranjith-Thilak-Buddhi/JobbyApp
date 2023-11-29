@@ -84,6 +84,9 @@ class JobsPage extends Component {
     }
 
     const response = await fetch(apiUrl, options)
+
+    console.log('fetched')
+
     if (response.ok) {
       const data = await response.json()
       this.setState({
@@ -108,6 +111,7 @@ class JobsPage extends Component {
     }
 
     const response = await fetch(apiUrl, options)
+    console.log('fetched')
 
     if (response.ok) {
       const data = await response.json()
@@ -116,7 +120,7 @@ class JobsPage extends Component {
         profileApiStatus: apiStatusConstants.success,
       })
     } else {
-      this.setSate({profileApiStatus: apiStatusConstants.failure})
+      this.setState({profileApiStatus: apiStatusConstants.failure})
     }
   }
 
@@ -146,13 +150,15 @@ class JobsPage extends Component {
   )
 
   renderProfileFailure = () => (
-    <button
-      type="button"
-      className="profile-failure-button"
-      onClick={this.getProfileDetails}
-    >
-      Retry
-    </button>
+    <div className="profile-failure-container">
+      <button
+        type="button"
+        className="profile-failure-retry-button"
+        onClick={this.getProfileDetails}
+      >
+        Retry
+      </button>
+    </div>
   )
 
   renderJobsSuccess = () => {
